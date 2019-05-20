@@ -10,10 +10,11 @@
 		105BCE7F228836E800588E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105BCE7E228836E800588E8C /* AppDelegate.swift */; };
 		105BCE81228836E800588E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105BCE80228836E800588E8C /* ViewController.swift */; };
 		105BCE84228836E800588E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105BCE82228836E800588E8C /* Main.storyboard */; };
-		105BCE86228836EA00588E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105BCE85228836EA00588E8C /* Assets.xcassets */; };
 		105BCE89228836EA00588E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105BCE87228836EA00588E8C /* LaunchScreen.storyboard */; };
 		105BCE94228836EA00588E8C /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105BCE93228836EA00588E8C /* calculatorTests.swift */; };
 		105BCE9F228836EA00588E8C /* calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105BCE9E228836EA00588E8C /* calculatorUITests.swift */; };
+		105BCEAD228AD3E200588E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105BCEAC228AD3E200588E8C /* Assets.xcassets */; };
+		105BCEAF228AD41800588E8C /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 105BCEAE228AD41700588E8C /* Orange.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		105BCE7E228836E800588E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		105BCE80228836E800588E8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = calculator/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		105BCE83228836E800588E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		105BCE85228836EA00588E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		105BCE88228836EA00588E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		105BCE8A228836EA00588E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		105BCE8F228836EA00588E8C /* calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +47,8 @@
 		105BCE9A228836EA00588E8C /* calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		105BCE9E228836EA00588E8C /* calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITests.swift; sourceTree = "<group>"; };
 		105BCEA0228836EA00588E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105BCEAC228AD3E200588E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		105BCEAE228AD41700588E8C /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 				105BCE7E228836E800588E8C /* AppDelegate.swift */,
 				105BCE80228836E800588E8C /* ViewController.swift */,
 				105BCE82228836E800588E8C /* Main.storyboard */,
-				105BCE85228836EA00588E8C /* Assets.xcassets */,
+				105BCEAC228AD3E200588E8C /* Assets.xcassets */,
+				105BCEAE228AD41700588E8C /* Orange.png */,
 				105BCE87228836EA00588E8C /* LaunchScreen.storyboard */,
 				105BCE8A228836EA00588E8C /* Info.plist */,
 			);
@@ -230,7 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				105BCE89228836EA00588E8C /* LaunchScreen.storyboard in Resources */,
-				105BCE86228836EA00588E8C /* Assets.xcassets in Resources */,
+				105BCEAF228AD41800588E8C /* Orange.png in Resources */,
+				105BCEAD228AD3E200588E8C /* Assets.xcassets in Resources */,
 				105BCE84228836E800588E8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
