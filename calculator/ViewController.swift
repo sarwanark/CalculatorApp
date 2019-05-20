@@ -108,28 +108,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func plusMinus(_ sender: Any) {
+        
+        if displayValue != 0{
+            displayValue = displayValue * (-1)
+        }else{
+            displayValue = 0
+        }
  
-        displayValue = displayValue * (-1)
     }
-    
-    /*@IBAction func decimal(sender: UIButton) {
-        
-        let decimal = sender.currentTitle!
-        
-        if isFirstDigit{
-            label.text = label.text! + "\(decimal)"
-            //Display.text = calcDisplay.text! + "\(decimal)"
-            dec.isEnabled = false
-        }
-        else{
-            label.text = ("0")
-            isFirstDigit = true
-            dec.isEnabled = true
-        }
-    }*/
-    
-    
-    
     
 }
 
